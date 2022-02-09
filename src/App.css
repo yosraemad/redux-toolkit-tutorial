@@ -1,0 +1,39 @@
+.App {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-form {
+  width: 30%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-form input {
+  width: 85%;
+  height: 2rem;
+  font-size: 20px;
+}
+
+.App-form button {
+  width: 10%;
+  height: 2.3rem;
+  font-size: 30px;
+  background: rgb(17, 170, 149);
+  color: white;
+  border: none;
+}
+
+.App-form button:hover {
+  background: rgb(8, 141, 123);
+}
+
+.Todos {
+  width: 30%;
+}
